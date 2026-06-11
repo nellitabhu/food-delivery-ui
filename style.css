@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+.header{
+    background:#111;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+.search{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+h2{
+    margin-top:25px;
+}
+
+.categories{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin:20px 0;
+}
+
+.cat{
+    background:#d9ff4f;
+    padding:10px 15px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.foods{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card h3{
+    margin-top:10px;
+}
+
+.card p{
+    font-size:18px;
+    font-weight:bold;
+}
+
+button{
+    background:#111;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+.details-card{
+    max-width:450px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.details-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.tracking{
+    max-width:500px;
+    margin:auto;
+    text-align:center;
+}
+
+.delivery-img{
+    width:300px;
+    max-width:100%;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.status{
+    background:white;
+    padding:15px;
+    margin:10px 0;
+    border-radius:10px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
